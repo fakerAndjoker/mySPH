@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    if(null){
+        console.log("null为真");
+    }
+    if(undefined){
+        console.log("undefined为真");
+    }
+    if(""){
+        console.log("空字符串为真");
+    }
+    if(0){
+        console.log("0为真");
+    }
+    if(NaN){
+        console.log("NaN为真");
+    }
+    let a = {}
+    if(a){
+        console.log("空对象为真");
+    }
+    let b  = []
+    if(b){
+        console.log("空数组为真");
+    }
+    if(undefined == null){
+        console.log("undeefined == null");
+    }
+    if(undefined == false){
+        console.log("undefined == false")
+    }
+    if(null == false){
+        console.log("undefined == false")
+    }
+</script>
+</html>
